@@ -1,0 +1,125 @@
+.ReactModal__Overlay{
+    z-index: 20;
+}
+#btn-med{
+    margin: 15% auto 0 auto;
+    margin-right: 5%;
+    color: white;
+    border-radius: 5px;
+    padding:8px 15px;
+    outline: none;
+    border:none;
+    background-color: blueviolet;
+
+}
+#btn-exe{
+    margin: 15% auto 0 auto;
+    margin-right: 5%;
+    color: white;
+    border-radius: 5px;
+    padding:8px 15px;
+    outline: none;
+    border:none;
+    background-color: blueviolet;
+}
+#search-div{
+    padding-top: 13%;
+    margin-bottom: 1%;
+    margin-left: 30%;
+    text-decoration:none;
+}
+#search-div > input{
+    width:60%;
+    border: 1px solid black;
+}
+#search-icon {
+    color:white;
+    font-size: 16px;
+    position: relative;
+    right:4%;
+    background-color:tomato;
+    padding:5px 10px;
+}
+#headding{
+    margin-left: 7%;
+    font-size: 25px;
+    font-weight: 600;
+    color:darkslateblue;
+}
+#product-wraper{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#add-products{
+    margin-right: 6%;
+    padding:5px 10px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+}
+.card{
+    display: flex;
+    width:15%;
+    max-width:600px;
+    height:250px;
+    box-shadow: 0 0 2px #ccc;
+}
+.card:hover{
+    box-shadow: 0 0 15px gray;
+}
+.card-wrapper{
+    padding:0 4%;
+}
+.product-card-title{
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+    color:darkslategray;
+}
+.product-card-brand{
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 0;
+    font-size:14px;
+    margin-top: 12px;
+    color:black;
+}
+.prouct-card-cost{
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #009688;
+}
+#Update{
+    text-align: center;
+}
+#Update > h2{
+    color: white;
+}
+#userName{
+    color: white;
+    margin-top:5%;
+}
+.userupdate{
+    color:white;
+    margin-top: 3%;
+}
+.move{
+    margin-right:10%;
+}
+.movestock{
+    margin-right:20%;
+}
+#btn-cancel{
+    margin-top:3%;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding:8px 15px;
+    outline: none;
+    border:none;
+}

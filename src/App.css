@@ -1,38 +1,108 @@
-.App {
+#background{
+  width:100%;
+  height:100vh;
+  background-image:url("https://images.unsplash.com/photo-1471864190281-a93a3070b6de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+
+}
+#signUp{
+  width:30%;
+  height: 60vh;
+  margin:auto;
+  border-radius: 15px;
+  background-color:aquamarine;
   text-align: center;
+  position: relative;
+  top:20%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#username{
+  position: relative;
+  top:5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#user{
+  position: relative;
+  top:10%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#pass{
+  position: relative;
+  top:15%;
+  left:8%; 
+}
+.input-field{
+  margin-left:5px;
+  padding:8px 30px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+#cancel-bth{
+  position: relative;
+  top:34%;
+  right:10%;
+  padding:8px 15px;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+  background-color:red;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#signin-btn{
+  position: relative;
+  top:25%;
+  right:20%;
+  padding:8px 15px;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+  background-color: blue;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#msg{
+  margin-left:38%;
+  bottom: 30%;
+  position: absolute;
+}
+#login-signup{
+  margin-left:48%;
+  position: absolute;
+  top:72%;
+  padding:8px 15px;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+  background-color: blue;
+  color: white;
+}
+#signIn{
+  text-align: center;
+}
+#loguser{
+  position: absolute;
+  top: 30%;
+  right: 17%;
+}
+#logpass{
+  position: absolute;
+  top: 50%;
+  right: 17%;
+}
+#log-cancel-bth{
+  margin-top: 40%;
+  padding:8px 15px;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+  background-color:red;
+  color: white;
+}
+#log-signin-btn{
+  margin-left:15%;
+  padding:8px 15px;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+  background-color:blue;
+  color: white;
 }
