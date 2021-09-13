@@ -40,6 +40,10 @@ class Manager extends Component {
         this.setState({optionModelOpen:false});
         this.props.history.push('/salesExe');
     }
+    handleSignup=()=>{
+        this.setState({optionModelOpen:false});
+        this.props.history.push('/');
+    }
 
     render() {
         const {optionModelOpen}=this.state;
@@ -52,7 +56,8 @@ class Manager extends Component {
                 >
                         
                     <div id="Update">
-                        <button onClick={this.handleMadicine} id="btn-med">Medicine</button>
+                        <button onClick={this.handleSignup} className="btn-med">Signup</button>
+                        <button onClick={this.handleMadicine} className="btn-med">Medicine</button>
                         <button onClick={this.handleExecutive} id="btn-exe">Executive</button>
                     </div>
                 </Modal> 
